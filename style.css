@@ -1,0 +1,356 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.logo>img {
+    width: 150px;
+    padding-left: 50px;
+}
+
+.header {
+    width: 100%;
+    padding: 10px 50px;
+    background-color: black;
+}
+
+.menu>li {
+    display: inline-block;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.right {
+    width: 55%;
+    vertical-align: baseline;
+    text-align: right;
+}
+
+.logo {
+    width: 30%;
+    vertical-align: middle;
+}
+
+.logo,
+.right {
+
+    display: inline-block;
+}
+
+.btns>button {
+    border: none;
+    border-radius: 35px;
+    padding: 15px 20px;
+}
+
+.btn-one {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+
+}
+
+.btn-two {
+    background-color: #ed1c24;
+    border: 1px solid #ed1c24;
+    color: #fff;
+}
+
+.btn-two>i {
+    background-color: #fff;
+    color: #ed1c24;
+    padding: 8px;
+    margin-left: 2px;
+    border-radius: 100%;
+}
+
+.btn-two {
+    padding: 10px !important;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.btns {
+    display: inline-block;
+}
+
+.slide {
+    width: 100%;
+    height: 500px;
+}
+
+.slide>img {
+    width: 100%;
+    height: 100%;
+    /* padding: 5px 50px; */
+
+}
+
+.intro {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.intro>.content>h2 {
+    margin: 0;
+    color: white;
+    font-size: xx-large;
+    padding: 2px;
+
+}
+
+.intro {
+    padding: 50px;
+}
+
+.intro>.content>p {
+    color: #fff;
+}
+
+.font {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.card-container {
+    text-align: center;
+}
+
+.center-card {
+    margin: 0px 20px;
+}
+
+.cards {
+    display: inline-block;
+}
+
+.card-logo {
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    padding: 30px 10px;
+}
+
+.card-logo>img {
+    width: 70%;
+}
+
+.card-btn>button {
+    border: none;
+    padding: 15px 50px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 35px;
+}
+
+.card-btn {
+    width: 250px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.introduction {
+    text-align: center;
+    color: #fff;
+    background-image: url(./images/ss.webp);
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    height: 900px;
+    width: 100%;
+    padding: 5px 50px;
+    /* padding: 100px; */
+}
+
+.font-1 {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    letter-spacing: 8px;
+}
+
+.left-side>.connect>.h2 {
+    margin: 0;
+    color: white;
+    font-size: xx-large;
+    padding: 2px;
+}
+
+.left-side {
+    padding: 80px;
+    word-spacing: 5px;
+    text-align: left;
+    padding-left: 0px;
+    display: flex;
+}
+
+.right-side>img {
+    padding-left: 150px;
+    margin-top: 30px;
+}
+
+.connect>button {
+    border: none;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 35px;
+}
+
+.left {
+    text-align: left;
+}
+
+.main {
+    display: flex;
+}
+
+.right {
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.heading>h2 {
+    font-size: 50px;
+    word-spacing: 2px;
+}
+
+.mall {
+    display: flex;
+}
+
+.pic>img {
+    width: 100%;
+}
+
+.pic {
+    width: 350px;
+    height: 500px;
+    padding: 30px 10px;
+    margin: 10px;
+}
+
+.two {
+    display: flex;
+    justify-content: left;
+    padding: 50px;
+
+}
+
+.img1>img {
+    width: 400px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.me>h2 {
+    font-size: xx-large;
+    word-spacing: 6px;
+
+}
+
+.lastleft>img {
+    width: 600px;
+    height: 300px;
+    margin-left: -60px;
+}
+
+.right>button {
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 35px;
+}
+
+.last>button {
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    background-color: green;
+}
+
+button>i {
+    background-color: #fff;
+    color: green;
+    margin-left: 2px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.boxes {
+    background-color: #ed1c24;
+}
+
+.one-1 {
+    background-color: gold;
+}
+
+.images>img {
+    width: 220px;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+}
+
+.ime>img {
+    margin-left: 10px;
+}
+
+.connect>button>i {
+    background-color: #fff;
+    color: red;
+    margin-left: 2px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.one {
+    text-align: justify;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+.fbt {
+    display: flex;
+    justify-content: center;
+}
+
+.list>li {
+    padding: auto;
+}
